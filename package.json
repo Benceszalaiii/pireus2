@@ -1,0 +1,29 @@
+{
+  "name": "pireus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "postcss ./src/css/tailwind.css -o ./src/css/output.css --watch "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benceszalaiii/pireus2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benceszalaiii/pireus2/issues"
+  },
+  "homepage": "https://github.com/Benceszalaiii/pireus2#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.18",
+    "cssnano": "^6.1.0",
+    "postcss-cli": "^11.0.0",
+    "tailwind-scrollbar": "^3.1.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "cssnano": "^6.1.0"
+  }
+}
